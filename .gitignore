@@ -1,0 +1,30 @@
+# Data files — handled by DVC
+*.fasta
+*.fastq
+*.fastq.gz
+*.bam
+*.bam.bai
+*.vcf
+*.vcf.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Conda
+.conda/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Large model files
+*.pt
+*.pth
+*.ckpt

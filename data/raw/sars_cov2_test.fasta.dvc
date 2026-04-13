@@ -1,0 +1,5 @@
+outs:
+- md5: bf22b7561a8637f66f7c18e1565634fa
+  size: 303431
+  hash: md5
+  path: sars_cov2_test.fasta

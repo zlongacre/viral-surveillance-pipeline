@@ -1,5 +1,5 @@
 [core]
     analytics = false
-    remote = gdrive
-['remote "gdrive"']
-    url = gdrive://1p6kP68G7OEOIxjD0bl1wSEx_MInCbk_h
+    remote = local
+['remote "local"']
+    url = /tmp/dvc-cache

@@ -28,3 +28,4 @@ build/
 *.pt
 *.pth
 *.ckpt
+gdrive-credentials.json

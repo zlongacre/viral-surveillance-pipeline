@@ -1,5 +1,0 @@
-2026-04-14 07:30:58	-	confident_volhard	-	b880b682ee499dbec211d34957259ca2	3857b4f7-4d29-4942-b780-c2222730b030	nextflow run main.nf
-2026-04-14 07:36:38	4.2s	desperate_lamarck	ERR	f3ff2a397f6828eed9e8b8b35df74538	59439be6-2ed5-4ebf-89cd-94900419432a	nextflow run main.nf
-2026-04-14 07:38:58	3s	nauseous_hirsch	ERR	d8aa834c2fd9fbae4c5c3fecdcbdb513	a4c5b1f3-a4c1-463e-9b06-7e343f5a10d5	nextflow run main.nf
-2026-04-14 07:44:24	3.7s	cranky_galileo	ERR	c78d105516be936f06778cf56159fae8	5dbc8cb1-9ee5-4985-b0e9-c6450ae520c1	nextflow run main.nf
-2026-04-14 08:10:40	13.2s	special_heisenberg	OK	201911ffaf387b737de6d9a8efebe810	b6958079-f2cd-4c2f-aec6-ef2caa0b30d7	nextflow run main.nf

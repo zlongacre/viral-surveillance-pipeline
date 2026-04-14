@@ -29,3 +29,6 @@ build/
 *.pth
 *.ckpt
 gdrive-credentials.json
+.nextflow.log*
+work/
+.nextflow/

@@ -1,6 +1,6 @@
 # Viral Genomic Surveillance Pipeline
 
-End-to-end NGS pipeline for SARS-CoV-2 and influenza genomic surveillance,
+End-to-end pipeline for SARS-CoV-2 and influenza genomic surveillance,
 built on production experience running real-time variant monitoring programs.
 
 ## What it does

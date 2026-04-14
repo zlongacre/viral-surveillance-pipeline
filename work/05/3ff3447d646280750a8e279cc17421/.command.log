@@ -1,0 +1,26 @@
+Error: 
+   0: The argument `--input-fasta` (alias: `--sequences`, `-i`) is removed in favor of positional arguments.
+
+      Try:
+
+        nextclade run -D dataset/ -O out/ seq1.fasta seq2.fasta
+
+                                              ^          ^
+                                     one or multiple positional arguments
+                                       with paths to input fasta files
+
+      When positional arguments are not provided, nextclade will read input fasta from standard input.
+
+      For more information, type
+
+        nextclade run --help
+
+      Read Nextclade documentation at:
+
+        https://docs.nextstrain.org/projects/nextclade/en/stable
+
+Location:
+   packages/nextclade-cli/src/cli/nextclade_cli.rs:1055
+
+Backtrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.
+Run with RUST_BACKTRACE=full to include source snippets.

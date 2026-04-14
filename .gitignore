@@ -32,3 +32,4 @@ gdrive-credentials.json
 .nextflow.log*
 work/
 .nextflow/
+data/processed/

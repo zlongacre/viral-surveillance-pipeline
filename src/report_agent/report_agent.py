@@ -11,7 +11,7 @@ import argparse
 import os
 from datetime import datetime
 from collections import Counter
-from prompt_templates import SYSTEM_PROMPT, SURVEILLANCE_REPORT_TEMPLATE, QC_SUMMARY_TEMPLATE
+from src.report_agent.prompt_templates import SYSTEM_PROMPT, SURVEILLANCE_REPORT_TEMPLATE, QC_SUMMARY_TEMPLATE
 
 
 def load_nextclade_results(filepath):

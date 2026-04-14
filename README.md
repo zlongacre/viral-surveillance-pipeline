@@ -1,6 +1,6 @@
 # Viral Genomic Surveillance Pipeline
 
-End-to-end pipeline for SARS-CoV-2 and influenza genomic surveillance,
+End-to-end NGS pipeline for SARS-CoV-2 and influenza genomic surveillance,
 built on production experience running real-time variant monitoring programs.
 
 ## What it does
@@ -15,21 +15,42 @@ built on production experience running real-time variant monitoring programs.
 - ML model to predict which variants are likely to become dominant
 - Trained on known emergence events: Delta, Omicron, XBB, JN.1, XFG
 
+**Phase 3 — AI surveillance report agent (in development)**
+- Reads pipeline outputs from Nextclade and QC modules
+- Builds structured epidemiological prompt from lineage distribution,
+  mutation profiles, and QC metrics
+- Generates plain-English surveillance summary via local LLM (Ollama)
+- Report format mirrors production briefings for scientific and executive audiences
+- Designed to plug into any LLM backend — Ollama, Anthropic API, OpenAI
+
 ## Results so far
 - Pipeline validated on 500 real SARS-CoV-2 sequences (2024-2026)
 - 142 distinct lineages identified across XFG, XEC, KP.3, PQ clades
 - Random Forest classifier achieving 22.6% CV accuracy across 142 classes
   (baseline random = <1%)
+- AI report agent architecture complete, LLM integration in progress
 
 ## Stack
-Nextflow · Python · Nextclade · BioPython · scikit-learn · DVC
+Nextflow · Python · Nextclade · BioPython · scikit-learn · DVC · Ollama
 
 ## Quick start
 ```bash
 conda env create -f environment.yml
 conda activate surveillance
+
+# Run pipeline
 nextflow run main.nf
-python src/lineage_classifier.py --input data/processed/lineages/nextclade.tsv --outdir models/
+
+# Run ML classifier
+python src/lineage_classifier.py \
+    --input data/processed/lineages/nextclade.tsv \
+    --outdir models/
+
+# Generate AI surveillance report
+python src/report_agent/report_agent.py \
+    --nextclade data/processed/lineages/nextclade.tsv \
+    --qc data/processed/qc/qc_report.txt \
+    --outdir data/output/
 ```
 
 ## Data sources

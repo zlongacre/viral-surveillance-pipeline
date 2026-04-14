@@ -33,3 +33,4 @@ gdrive-credentials.json
 work/
 .nextflow/
 data/processed/
+data/processed/

@@ -1,0 +1,5 @@
+outs:
+- md5: 1aebd91f9d1af03a4fce1df3a39450b7
+  size: 14922633
+  hash: md5
+  path: sars_cov2_500.fasta

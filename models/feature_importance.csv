@@ -1,9 +1,9 @@
 feature,importance
-coverage,0.27143042892252234
-totalMissing,0.23495087332227743
-totalSubstitutions,0.1648064600758612
-qc.overallScore,0.1591649599666088
-totalDeletions,0.11348173484388255
-totalAminoacidDeletions,0.056165542868847715
-totalInsertions,0.0
-totalFrameShifts,0.0
+totalSubstitutions,0.29514172480534395
+qc.overallScore,0.2196842350592459
+coverage,0.2090198142816122
+totalMissing,0.1088128512069917
+totalDeletions,0.07319491016341288
+totalAminoacidDeletions,0.04788552011887795
+totalInsertions,0.040002082429355545
+totalFrameShifts,0.006258861935159786

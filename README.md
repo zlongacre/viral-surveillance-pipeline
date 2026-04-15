@@ -28,10 +28,11 @@ built on production experience running real-time variant monitoring programs.
 - 142 distinct lineages identified across XFG, XEC, KP.3, PQ clades
 - Random Forest classifier achieving 22.6% CV accuracy across 142 classes
   (baseline random = <1%)
-- AI report agent architecture complete, LLM integration in progress
+- AI report agent operational - generating structured surveillance summaries via local LLM
+- Report covers dominant lineages, emerging variants, escape mutations, and antigen recommendations
 
 ## Stack
-Nextflow · Python · Nextclade · BioPython · scikit-learn · DVC · Ollama
+Nextflow · Python · Nextclade · BioPython · scikit-learn · DVC · Ollama (llama3.2)
 
 ## Quick start
 ```bash

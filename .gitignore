@@ -34,3 +34,4 @@ work/
 .nextflow/
 data/processed/
 data/processed/
+data/output/
